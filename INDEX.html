@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+       body{
+        background: #252424;
+        
+       }
+       div{
+        border: 2px solid#2b64c5;
+        box-shadow: 0px 0px 11px cornflowerblue;
+       padding: 12px 0px 16px 26px;
+
+        width: 20%;
+        margin: 100px 544px;
+        
+        
+       }
+       textarea{
+            border: none;
+            border-bottom: 2px solid #444141;
+            outline: transparent;
+           height:80px;px;
+            width: 235px;
+            background: #252424;}
+        input{
+            border: none;
+            border-bottom: 2px solid #332f2f;
+            outline:transparent;
+            caret-color: #4e84e0;
+            width: 235px;
+            background: #252424;
+            
+        }
+         p{
+            display: inline-block;
+            font-family: 'Times New Roman', Times, serif;
+         }   
+            
+            
+            
+            
+            
+        
+        label{
+            color: rgb(255, 255, 255);
+            
+            text-transform: capitalize;
+            
+           
+           
+        }
+        label,input:hover{
+           border-color:  #4e84e0;
+           
+            
+        }
+        textarea:hover{
+            border-color: #4e84e0;
+           
+        }
+p:hover{
+color: #4e84e0;
+}
+button{
+    background-color:  #4e84e0;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 90px;
+   
+}
+button.btn{
+    color: rgb(5, 5, 5);
+    width: 70px;
+    margin-left:39px;
+    background-color: aliceblue;
+   
+}
+button:hover{
+    background-color: white;
+    box-shadow: 0px 0px 11px #ffffff;}
+   
+button.btn:hover{
+     /* background-color: #4e84e0;
+    box-shadow: 0px 0px 15px #2b64c5; */
+    background-color: #4e84e0;
+    box-shadow: 0px 0px 11px #4e84e0;
+}
+      
+    </style>
+</head>
+<body>
+   <div>
+    <form action="get">
+     <label for="name"><p>name
+    <input type="text" name="name" id="name" required="required"></p></label><br><br>
+     <label for="email">  <p> email
+        <input type="email" name="email" id="email" required="required"></p></label><br><br>
+      <label for="password">  <p>password
+        <input type="password" name="password" id="password" required="required"></p></label><br><br>
+       <label for="phone"> <p>phone
+        <input type="tel" name="phone" id="phone"></p></label><br><br>
+      <label for="message">  <p>message
+        <textarea name="message" id="message" cols="30" rows="10"></textarea></p></label>
+        <button type="submit">submint</button>
+    <button type="reset" class="btn">reset</button>
+    </form>
+    
+    
+</div>
+</body>
+</html>
